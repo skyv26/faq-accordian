@@ -1,8 +1,8 @@
 import React from "react";
 import type { CollapseProps } from "antd";
 import { Collapse } from "antd";
-import expand_icon from "./assets/icon-plus.svg";
-import collapse_icon from "./assets/icon-minus.svg";
+import expand_icon from "../../assets/icon-plus.svg";
+import collapse_icon from "../../assets/icon-minus.svg";
 
 const CustomIcon = ({ img }: { img: string }) => {
   return <img src={img} alt="" />;
