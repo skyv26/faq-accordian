@@ -29,3 +29,8 @@
     font-weight: 700;
     font-style: normal;
   }
+
+  .collapse-component .ant-collapse-item .ant-collapse-content-box,
+  .collapse-component .ant-collapse-item .ant-collapse-header {
+    @apply p-0;
+  }
