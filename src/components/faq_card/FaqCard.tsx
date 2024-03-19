@@ -5,12 +5,12 @@ import Accordian from "../accordian/Accordian";
 const FaqCard = () => {
   return (
     <div>
-        <Row>
+        <Row align="middle" gutter={24} justify="start" >
             <Col>
-            <img src={STAR_ICON} alt="" />
+            <img src={STAR_ICON} alt="" className="size-6" />
             </Col>
             <Col>
-            <h1>FAQ</h1>
+            <h1 className="font-work_sans font-bold text-[#2f1533] text-[2rem]">FAQs</h1>
             </Col>
         </Row>
         <Row>
