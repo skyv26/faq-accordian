@@ -30,7 +30,23 @@
     font-style: normal;
   }
 
+  body {
+    @apply bg-accordian-m-bg bg-no-repeat bg-[#f9f0ff];
+  }
+
   .collapse-component .ant-collapse-item .ant-collapse-content-box,
   .collapse-component .ant-collapse-item .ant-collapse-header {
     @apply p-0;
+  }
+
+  .collapse-component .ant-collapse-item .ant-collapse-header {
+    @apply py-4;
+  }
+
+  .collapse-component .ant-collapse-item .ant-collapse-content-box {
+    @apply py-5;
+  }
+
+  .collapse-component .ant-collapse-item {
+    @apply !border-b-[#f9f0ff];
   }

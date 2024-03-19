@@ -11,6 +11,10 @@ export default {
       fontFamily: {
         work_sans: ['WorkSans', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'accordian-m-bg': "url('./src/assets/background-pattern-mobile.svg')",
+        'accordian-bg': "url('./src/assets/background-pattern-desktop.svg')"
+      },
     },
   },
   plugins: [],
