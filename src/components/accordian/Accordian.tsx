@@ -1,8 +1,9 @@
 import React from "react";
 import type { CollapseProps } from "antd";
 import { Collapse } from "antd";
-import expand_icon from "../../assets/icon-plus.svg";
-import collapse_icon from "../../assets/icon-minus.svg";
+// import expand_icon from "../../assets/icon-plus.svg";
+// import collapse_icon from "../../assets/icon-minus.svg";
+import { MinusCircleFilled, PlusCircleFilled } from "@ant-design/icons";
 
 const CustomIcon = ({ img }: { img: string }) => {
   return <img src={img} alt="" />;
@@ -39,13 +40,13 @@ const Accordian: React.FC = () => (
   <Collapse
     items={items}
     bordered={false}
-    className="collapse-component font-work_sans"
+    className="collapse-component font-work_sans bg-transparent"
     expandIconPosition="right"
     expandIcon={({ isActive }) =>
       isActive ? (
-        <CustomIcon img={collapse_icon} />
+        <MinusCircleFilled className="!text-xl"/>
       ) : (
-        <CustomIcon img={expand_icon} />
+        <PlusCircleFilled className="!text-[#AD28EB] !text-xl" />
       )
     }
     defaultActiveKey={["1"]}
