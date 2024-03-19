@@ -4,7 +4,7 @@ import Accordian from "../accordian/Accordian";
 
 const FaqCard = () => {
   return (
-    <div>
+    <div className="bg-white py-4 px-4 w-11/12 m-auto mt-36 rounded-lg">
         <Row align="middle" gutter={24} justify="start" >
             <Col>
             <img src={STAR_ICON} alt="" className="size-6" />
