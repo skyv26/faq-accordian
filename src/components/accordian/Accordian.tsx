@@ -44,7 +44,7 @@ const Accordian: React.FC = () => (
     expandIconPosition="right"
     expandIcon={({ isActive }) =>
       isActive ? (
-        <MinusCircleFilled className="!text-xl"/>
+        <MinusCircleFilled className="!text-xl !text-[#2f1533]"/>
       ) : (
         <PlusCircleFilled className="!text-[#AD28EB] !text-xl" />
       )
