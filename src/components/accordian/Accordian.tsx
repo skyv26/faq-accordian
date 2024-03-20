@@ -5,9 +5,9 @@ import { Collapse } from "antd";
 // import collapse_icon from "../../assets/icon-minus.svg";
 import { MinusCircleFilled, PlusCircleFilled } from "@ant-design/icons";
 
-const CustomIcon = ({ img }: { img: string }) => {
-  return <img src={img} alt="" />;
-};
+// const CustomIcon = ({ img }: { img: string }) => {
+//   return <img src={img} alt="" />;
+// };
 
 const items: CollapseProps["items"] = [
   {
