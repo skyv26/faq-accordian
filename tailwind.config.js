@@ -13,7 +13,8 @@ export default {
       },
       backgroundImage: {
         'accordian-m-bg': "url('./src/assets/background-pattern-mobile.svg')",
-        'accordian-bg': "url('./src/assets/background-pattern-desktop.svg')"
+        'accordian-bg': "url('./src/assets/background-pattern-desktop.svg')",
+        'trace-m-bg': "url('./src/assets/mobile-design.jpg')"
       },
     },
   },
