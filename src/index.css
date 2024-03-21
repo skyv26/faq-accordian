@@ -30,8 +30,15 @@
     font-style: normal;
   }
 
-  body {
-    @apply bg-accordian-m-bg bg-no-repeat bg-[#f9f0ff];
+  @layer base {
+    body {
+      @apply bg-accordian-m-bg bg-no-repeat bg-[#f9f0ff] relative z-0;
+    }
+
+    body::after {
+      content: '';
+      @apply h-full w-full bg-trace-m-bg bg-no-repeat fixed z-20 top-0 left-0 opacity-25;
+    }
   }
 
   .collapse-component .ant-collapse-item .ant-collapse-content-box,
