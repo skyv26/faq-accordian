@@ -32,12 +32,12 @@
 
   @layer base {
     body {
-      @apply bg-accordian-m-bg bg-no-repeat bg-[#f9f0ff] relative z-0;
+      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] relative z-0;
     }
 
     body::after {
       content: '';
-      @apply h-full w-full bg-trace-m-bg bg-no-repeat fixed z-20 top-0 left-0 opacity-25;
+      @apply h-full w-full bg-trace-m-bg bg-no-repeat fixed -z-10 top-0 left-0 opacity-0;
     }
   }
 
@@ -47,11 +47,15 @@
   }
 
   .collapse-component .ant-collapse-item .ant-collapse-header {
-    @apply py-4;
+    @apply flex items-center justify-center py-4 min-[375px]:py-6;
   }
 
   .collapse-component .ant-collapse-item .ant-collapse-content-box {
     @apply py-5;
+  }
+
+  .collapse-component .ant-collapse-header .ant-collapse-header-text {
+    @apply min-[375px]:!pr-5;
   }
 
   .collapse-component .ant-collapse-item {
