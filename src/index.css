@@ -41,21 +41,26 @@
     }
   }
 
+  .collapse-component .ant-collapse-item {
+    @apply py-4;
+  }
+
   .collapse-component .ant-collapse-item .ant-collapse-content-box,
   .collapse-component .ant-collapse-item .ant-collapse-header {
-    @apply p-0;
+    @apply !p-0 !mt-1;
   }
 
   .collapse-component .ant-collapse-item .ant-collapse-header {
-    @apply flex items-center justify-center py-4 min-[375px]:py-6;
+    @apply flex items-center justify-center;
   }
+  /* py-4 min-[375px]:py-5 */
 
   .collapse-component .ant-collapse-item .ant-collapse-content-box {
-    @apply py-5;
+    @apply !py-1;
   }
 
   .collapse-component .ant-collapse-header .ant-collapse-header-text {
-    @apply min-[375px]:!pr-5;
+    @apply min-[375px]:!pr-4 min-[375px]:py-1;
   }
 
   .collapse-component .ant-collapse-item {
