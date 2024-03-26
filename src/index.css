@@ -32,7 +32,7 @@
 
   @layer base {
     body {
-      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] relative z-0;
+      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] md: relative z-0;
     }
 
     body::after {
