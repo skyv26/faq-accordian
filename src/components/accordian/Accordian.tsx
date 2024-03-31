@@ -40,8 +40,8 @@ const Accordian: React.FC = () => (
   <Collapse
     items={items}
     bordered={false}
-    className="collapse-component font-work_sans bg-transparent"
-    expandIconPosition="right"
+    className="collapse-component font-work_sans bg-transparent !w-full"
+    expandIconPosition="right" 
     expandIcon={({ isActive }) =>
       isActive ? (
         <MinusCircleFilled className="!text-xl !text-[#2f1533] min-[375px]:!text-2xl"/>
