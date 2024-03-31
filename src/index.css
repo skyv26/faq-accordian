@@ -32,12 +32,12 @@
 
   @layer base {
     body {
-      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] md: relative z-0;
+      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] md:bg-accordian-bg md:bg-[auto_17rem] lg:bg-contain relative z-0;
     }
 
     body::after {
       content: '';
-      @apply h-full w-full bg-trace-m-bg bg-no-repeat fixed -z-10 top-0 left-0 opacity-0;
+      @apply h-full w-full bg-trace-bg bg-no-repeat fixed z-10 top-0 left-0 opacity-25;
     }
   }
 
@@ -53,7 +53,6 @@
   .collapse-component .ant-collapse-item .ant-collapse-header {
     @apply flex items-center justify-center;
   }
-  /* py-4 min-[375px]:py-5 */
 
   .collapse-component .ant-collapse-item .ant-collapse-content-box {
     @apply !py-1;
