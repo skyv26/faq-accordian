@@ -37,7 +37,7 @@
 
     body::after {
       content: '';
-      @apply h-full w-full bg-trace-bg bg-no-repeat fixed z-10 top-0 left-0 opacity-25;
+      @apply h-full w-full bg-trace-bg bg-no-repeat fixed -z-10 top-0 left-0 opacity-0;
     }
   }
 

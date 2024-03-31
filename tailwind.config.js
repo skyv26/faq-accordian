@@ -12,10 +12,10 @@ export default {
         work_sans: ['WorkSans', ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
-        'accordian-m-bg': "url('./src/assets/background-pattern-mobile.svg')",
-        'accordian-bg': "url('./src/assets/background-pattern-desktop.svg')",
-        'trace-m-bg': "url('./src/assets/mobile-design.jpg')",
-        'trace-bg': "url('./src/assets/desktop-design.jpg')"
+        'accordian-m-bg': "url('/src/assets/background-pattern-mobile.svg')",
+        'accordian-bg': "url('/src/assets/background-pattern-desktop.svg')",
+        'trace-m-bg': "url('/src/assets/mobile-design.jpg')",
+        'trace-bg': "url('/src/assets/desktop-design.jpg')"
       },
     },
   },

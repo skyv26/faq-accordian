@@ -1,5 +1,9 @@
 import FaqCard from "./components/faq_card/FaqCard";
+import Footer from "./components/footer/Footer";
 
-const App = () => <FaqCard />;
+const App = () => <main>
+    <FaqCard />
+    <Footer />
+</main>;
 
 export default App;
