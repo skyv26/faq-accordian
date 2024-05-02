@@ -22,15 +22,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🍲 Recipe Page <a name="about-project"></a>
+# 👨‍💻 FAQ Accordion <a name="about-project"></a>
 
-> The app displays a detailed recipe, including preparation time, ingredients, step-by-step instructions, and nutritional information. It features a responsive design, ensuring usability across devices. I implemented reusable components, dynamic rendering, and styled the interface using Tailwind CSS for a clean and modern look. This project allowed me to sharpen my skills in React, state management, and handling structured data, enhancing both functionality and user experience.
+> his project is a responsive FAQ accordion built as a challenge from the Frontend Mentor platform. It features collapsible sections for frequently asked questions, providing a clean and interactive way to display information. The app uses modern front-end technologies to ensure smooth transitions and a user-friendly design. It was a great opportunity to practice component-based development, state management, and responsive styling techniques.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Recipe Page App is frontend project
+> FAQ Accordion is frontend project
 
 <details>
 <summary>Front-end</summary>
@@ -45,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> We can do swupe left or right to change the recipe.
+> We can do check FAQ question's answer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,7 +55,7 @@
 
 > Link to your deployed project.
 
-- [Recipe Page Live Link](https://skyv26.github.io/Recipe-Page-Frontend-Only/)
+- [FAQ Accordion](https://skyv26.github.io/faq-accordian/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
