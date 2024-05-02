@@ -22,21 +22,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📢 Social Links Profile <a name="about-project"></a>
+# 🍲 Recipe Page <a name="about-project"></a>
 
-> This project is a responsive web application built as a challenge from the Frontend Mentor platform. The app allows users to showcase their social media profiles in an elegant and accessible design. It features customizable profile links, a clean user interface, and seamless responsiveness across devices. The challenge helped me enhance my front-end development skills, particularly in building user-friendly layouts, optimizing for accessibility, and implementing responsive designs using modern web technologies.
+> The app displays a detailed recipe, including preparation time, ingredients, step-by-step instructions, and nutritional information. It features a responsive design, ensuring usability across devices. I implemented reusable components, dynamic rendering, and styled the interface using Tailwind CSS for a clean and modern look. This project allowed me to sharpen my skills in React, state management, and handling structured data, enhancing both functionality and user experience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Social Links Profile App is frontend project
+> Recipe Page App is frontend project
 
 <details>
 <summary>Front-end</summary>
   <ul>
+    <li><a href="https://react.dev/">React</a></li>
     <li><a href="https://tailwindcss.com/docs">TailwindCSS</a></li>
-    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://ant.design/components">Ant Design</a></li>
   </ul>
 </details>
 
@@ -44,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> We can do switch the profile by clicking on the star icon.
+> We can do swupe left or right to change the recipe.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +55,7 @@
 
 > Link to your deployed project.
 
-- [Social Links Profile](https://skyv26.github.io/social-link-FC/)
+- [Recipe Page Live Link](https://skyv26.github.io/Recipe-Page-Frontend-Only/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,11 +78,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/skyv26/social-link-FC.git`
+`git clone https://github.com/skyv26/Recipe-Page-Frontend-Only.git`
 
 then
 
-`cd social-link-FC`
+`cd Recipe-Page-Frontend-Only`
 
 ### Install
 
@@ -141,7 +142,7 @@ If you like this project then please give a ⭐️ and also share your feedback 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- ❤️ [TypeScript](https://www.typescriptlang.org/)
+- ❤️ [Ant Design](https://ant.design/)
 - ❤️ [TailwindCSS](https://tailwindcss.com/docs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
