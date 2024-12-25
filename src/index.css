@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('./assets//fonts//WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/static/WorkSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/static/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'WorkSans';
+    src: url('./assets/fonts/static/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @layer base {
+    body {
+      @apply bg-accordian-m-bg bg-contain bg-no-repeat bg-[#f9f0ff] md:bg-accordian-bg md:bg-[auto_17rem] lg:bg-contain relative z-0;
+    }
+
+    body::after {
+      content: '';
+      @apply h-full w-full bg-trace-bg bg-no-repeat fixed -z-10 top-0 left-0 opacity-0;
+    }
+  }
+
+  .collapse-component .ant-collapse-item {
+    @apply py-4;
+  }
+
+  .collapse-component .ant-collapse-item .ant-collapse-content-box,
+  .collapse-component .ant-collapse-item .ant-collapse-header {
+    @apply !p-0 !mt-1;
+  }
+
+  .collapse-component .ant-collapse-item .ant-collapse-header {
+    @apply flex items-center justify-center;
+  }
+
+  .collapse-component .ant-collapse-item .ant-collapse-content-box {
+    @apply !py-1;
+  }
+
+  .collapse-component .ant-collapse-header .ant-collapse-header-text {
+    @apply min-[375px]:!pr-4 min-[375px]:py-1;
+  }
+
+  .collapse-component .ant-collapse-item {
+    @apply !border-b-[#f9f0ff];
+  }
